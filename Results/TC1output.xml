@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-04-22T12:29:27.742520" rpa="false" schemaversion="5">
+<suite id="s1" name="PythonProject3" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3">
+<suite id="s1-s1" name="Tests" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3\Tests">
+<suite id="s1-s1-s1" name="Test1" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3\Tests\Test1.robot">
+<test id="s1-s1-s1-t1" name="This is SauceLab Login test case" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-04-22T12:29:27.984343" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-04-22T12:29:27.984161" elapsed="2.218291"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-04-22T12:29:30.203046" elapsed="2.167341"/>
+</kw>
+<doc>Google test</doc>
+<tag>Functional</tag>
+<status status="PASS" start="2025-04-22T12:29:27.983183" elapsed="4.388254"/>
+</test>
+<status status="PASS" start="2025-04-22T12:29:27.776452" elapsed="4.597928"/>
+</suite>
+<status status="PASS" start="2025-04-22T12:29:27.775074" elapsed="4.602396"/>
+</suite>
+<status status="PASS" start="2025-04-22T12:29:27.744433" elapsed="4.635500"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Functional</stat>
+</tag>
+<suite>
+<stat name="PythonProject3" id="s1" pass="1" fail="0" skip="0">PythonProject3</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">PythonProject3.Tests</stat>
+<stat name="Test1" id="s1-s1-s1" pass="1" fail="0" skip="0">PythonProject3.Tests.Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

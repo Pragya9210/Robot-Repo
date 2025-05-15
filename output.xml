@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-05-14T12:56:30.613571" rpa="false" schemaversion="5">
+<suite id="s1" name="PythonProject3" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3">
+<suite id="s1-s1" name="Tests" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3\Tests">
+<suite id="s1-s1-s1" name="TC3" source="C:\Users\PragyaSharma\PycharmProjects\PythonProject3\Tests\TC3.robot">
+<test id="s1-s1-s1-t1" name="This is demoblaze first test case" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:30.936471" level="INFO">Opening browser 'Chrome' to base url 'https://www.automationexercise.com/'.</msg>
+<arg>https://www.automationexercise.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T12:56:30.936241" elapsed="4.964303"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-14T12:56:35.901354" elapsed="0.041411"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>1s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-05-14T12:56:35.944523" elapsed="0.000567"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:35.947345" level="INFO">Clicking element '//a[@href='/products']'.</msg>
+<arg>//a[@href='/products']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:35.945965" elapsed="4.394480"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:40.345704" level="INFO">Executing JavaScript:
+window.scrollBy(0,300)
+Without any arguments.</msg>
+<arg>window.scrollBy(0,300)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-05-14T12:56:40.344046" elapsed="1.033504"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:41.379278" level="INFO">Clicking element '//a[@href = '#Women']'.</msg>
+<arg>//a[@href = '#Women']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:41.378835" elapsed="2.133810"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:43.514270" level="INFO">Clicking element '//a[@href='/category_products/7']'.</msg>
+<arg>//a[@href='/category_products/7']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:43.513874" elapsed="3.830809"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:47.346707" level="INFO">Executing JavaScript:
+window.scrollBy(0,500)
+Without any arguments.</msg>
+<arg>window.scrollBy(0,500)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-05-14T12:56:47.345879" elapsed="1.030407"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:48.377914" level="INFO">Clicking element '//a[@data-product-id='41']'.</msg>
+<arg>//a[@data-product-id='41']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:48.377497" elapsed="2.132432"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[@id='cartModal']</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-05-14T12:56:50.511437" elapsed="2.031532"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:52.544922" level="INFO">Clicking button '//button[@class='btn btn-success close-modal btn-block']'.</msg>
+<arg>//button[@class='btn btn-success close-modal btn-block']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:52.544174" elapsed="5.164284"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:56:57.710416" level="INFO">Clicking element '//a[@href='/view_cart']'.</msg>
+<arg>//a[@href='/view_cart']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:56:57.709969" elapsed="3.975048"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:01.686626" level="INFO">Executing JavaScript:
+window.scrollBy(0,500)
+Without any arguments.</msg>
+<arg>window.scrollBy(0,500)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-05-14T12:57:01.685881" elapsed="1.013285"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:02.700873" level="INFO">Clicking link 'Beautiful Peacock Blue Cotton Linen Saree'.</msg>
+<arg>Beautiful Peacock Blue Cotton Linen Saree</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:02.700448" elapsed="4.492606"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:07.194946" level="INFO">Executing JavaScript:
+window.scrollBy(0,500)
+Without any arguments.</msg>
+<arg>window.scrollBy(0,500)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-05-14T12:57:07.194133" elapsed="1.026182"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:08.222401" level="INFO">Clicking element '//input[@id='name']'.</msg>
+<arg>//input[@id='name']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:08.221620" elapsed="2.112811"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:10.336145" level="INFO">Typing text 'Pragya' into text field '//input[@id='name']'.</msg>
+<arg>//input[@id='name']</arg>
+<arg>Pragya</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:10.335687" elapsed="3.110126"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:13.447804" level="INFO">Clicking element '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:13.447378" elapsed="2.129457"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:15.578588" level="INFO">Typing text 'abc@gmail.com' into text field '//input[@id='email']'.</msg>
+<arg>//input[@id='email']</arg>
+<arg>abc@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:15.578148" elapsed="3.208763"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:18.788605" level="INFO">Clicking element '//textarea[@id='review']'.</msg>
+<arg>//textarea[@id='review']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:18.787999" elapsed="2.118258"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-14T12:57:20.907905" level="INFO">Typing text 'This is Automation testing done via selenium on robot framework' into text field '//textarea[@id='review']'.</msg>
+<arg>//textarea[@id='review']</arg>
+<arg>This is Automation testing done via selenium on robot framework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T12:57:20.907482" elapsed="3.177443"/>
+</kw>
+<kw name="sleep 3s">
+<msg time="2025-05-14T12:57:24.088916" level="FAIL">No keyword with name 'sleep 3s' found. Did you mean:
+    BuiltIn.Sleep</msg>
+<status status="FAIL" start="2025-05-14T12:57:24.088776" elapsed="0.000280">No keyword with name 'sleep 3s' found. Did you mean:
+    BuiltIn.Sleep</status>
+</kw>
+<doc>Successful Login</doc>
+<tag>Functional TC3</tag>
+<status status="FAIL" start="2025-05-14T12:56:30.934830" elapsed="53.161763">No keyword with name 'sleep 3s' found. Did you mean:
+    BuiltIn.Sleep</status>
+</test>
+<doc>Successful login</doc>
+<status status="FAIL" start="2025-05-14T12:56:30.644868" elapsed="53.454662"/>
+</suite>
+<status status="FAIL" start="2025-05-14T12:56:30.643671" elapsed="53.459232"/>
+</suite>
+<status status="FAIL" start="2025-05-14T12:56:30.615534" elapsed="53.489062"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Functional TC3</stat>
+</tag>
+<suite>
+<stat name="PythonProject3" id="s1" pass="0" fail="1" skip="0">PythonProject3</stat>
+<stat name="Tests" id="s1-s1" pass="0" fail="1" skip="0">PythonProject3.Tests</stat>
+<stat name="TC3" id="s1-s1-s1" pass="0" fail="1" skip="0">PythonProject3.Tests.TC3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
