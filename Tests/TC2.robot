@@ -2,16 +2,21 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${Username}  Pragya
-${Password}  secret_sauce
+${URL}  https://www.saucedemo.com/
 
 *** Keywords ***
 
 *** Test Cases ***
+This is SauceLab URL test case
+    [Documentation]    URL test
+    [Tags]    Functional
+    Open Browser    https://www.saucedemo.com/  Chrome
+    Title Should Be    Swag Labs
+
 This is SauceLab Invalid username test case
     [Documentation]    Invalid Username Login test
     [Tags]    Functional TC2
-    Open Browser    https://www.saucedemo.com/  Chrome
+    #Open Browser    https://www.saucedemo.com/  Chrome
     Input Text    //*[@id="user-name"]  Pragya
     Input Text    //*[@id="password"]  secret_sauce
     Click Button    //*[@id="login-button"]
