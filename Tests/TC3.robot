@@ -57,7 +57,7 @@ This is demoblaze first test case
   Input Text    //input[@id='email']  abc@gmail.com
   Click Element    //textarea[@id='review']
   Input Text    //textarea[@id='review']  This is to test GIT second commit changes
-  sleep  3s
+
 
 
 
