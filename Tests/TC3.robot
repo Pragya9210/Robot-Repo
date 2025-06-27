@@ -6,7 +6,7 @@ Library    SeleniumLibrary
 
 
 *** Test Cases ***
-This is demoblaze first test case
+This is automationexercise first test case
   [Documentation]    Successful Login
     [Tags]    Functional TC3
 
