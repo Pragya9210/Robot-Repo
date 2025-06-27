@@ -14,7 +14,7 @@ This is automationexercise first test case
     Maximize Browser Window
 
     Set Selenium Speed    1s
-    Click Element    //a[@href='/products']
+    Click Element    //a[@href='/pructs']
     Execute JavaScript    window.scrollBy(0,300)
 
     #Input Text    //input[@id='search_product']  Top
